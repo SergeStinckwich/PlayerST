@@ -7,7 +7,6 @@ get2DPose: anIdentifier
 				headerWithType: playerClient playerMsgtypeReq
 				subType: self playerSimulationReqGetPose2d
 				size: size.
-	anIdentifier size + 1.
 	xdr := (anIdentifier size + 1) xdrInteger , (anIdentifier size + 1) xdrInteger.
 	playerClient socket sendData: header , xdr.
 	playerClient socket sendData: anIdentifier.
