@@ -4,7 +4,7 @@ startDemo2
 	| position2D pp2d p |
 	position2D := playerClient 
 		requestInterfacePosition2DWithIndex: 0
-		access: PlayerConstants playerOpenMode.
+		access: playerClient  playerOpenMode.
 	playerClient startThread.
 	p := PlayerPose2d new.
 	p

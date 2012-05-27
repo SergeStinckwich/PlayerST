@@ -2,8 +2,8 @@ as yet unclassified
 startDemo5
 	"player stage-2.1.1/worlds/simple.cfg"
 	| sonar s position turnRate speed |
-	position := playerClient requestInterfacePosition2DWithIndex: 0 access: PlayerConstants playerOpenMode.
-	sonar := playerClient requestInterfaceSonarWithIndex: 0 access: PlayerConstants playerOpenMode.
+	position := playerClient requestInterfacePosition2DWithIndex: 0 access: playerClient playerOpenMode.
+	sonar := playerClient requestInterfaceSonarWithIndex: 0 access: playerClient playerOpenMode.
 	playerClient startThread.
 	100
 		timesRepeat: [[sonar isDataReady] whileFalse.
