@@ -8,7 +8,9 @@
 	"instvars" : [
 		"minAngle",
 		"maxAngle",
-		"resolution" ],
+		"resolution",
+		"maxRange",
+		"ranges" ],
 	"name" : "PlayerLaserData",
 	"pools" : [
 		 ],

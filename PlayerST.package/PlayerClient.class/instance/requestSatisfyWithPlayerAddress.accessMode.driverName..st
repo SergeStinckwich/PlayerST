@@ -7,7 +7,9 @@ requestSatisfyWithPlayerAddress: aPlayerDevAddr accessMode: mode driverName: aSt
 		ifTrue: [newDevice := PositionDevice2D new].
 	aPlayerDevAddr interf == PlayerSonarCode
 		ifTrue: [newDevice := SonarInterface new].
-		aPlayerDevAddr interf == PlayerWifiCode 
+		aPlayerDevAddr interf == PlayerLaserCode
+		ifTrue: [newDevice := LaserInterface new].
+	aPlayerDevAddr interf == PlayerWifiCode
 		ifTrue: [newDevice := WifiInterface new].
 	newDevice
 		ifNotNil: [newDevice deviceAddress: aPlayerDevAddr.

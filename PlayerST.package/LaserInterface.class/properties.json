@@ -8,7 +8,11 @@
 	"instvars" : [
 		"pldata",
 		"readyPlData",
-		"pld" ],
+		"pld",
+		"readyPldata",
+		"readyPldatascan",
+		"readyPlconfig",
+		"readyPlgeom" ],
 	"name" : "LaserInterface",
 	"pools" : [
 		 ],
