@@ -7,7 +7,9 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"psp2ddata",
-		"readyPsp2ddata" ],
+		"readyPsp2ddata",
+		"psp2dreq",
+		"readyPsp2dreq" ],
 	"name" : "SimulationInterface",
 	"pools" : [
 		 ],
