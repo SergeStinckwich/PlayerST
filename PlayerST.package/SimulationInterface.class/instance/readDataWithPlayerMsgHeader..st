@@ -1,6 +1,7 @@
 as yet unclassified
 readDataWithPlayerMsgHeader: aHeader 
 	| buffer |
+	self halt.
 	timeStamp := aHeader timeStamp.
 	psp2ddata := PlayerSimulationData new.
 	buffer := ByteArray new: 4.

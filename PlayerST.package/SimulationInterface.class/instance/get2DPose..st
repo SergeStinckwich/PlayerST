@@ -13,4 +13,5 @@ get2DPose: anIdentifier
 	buffer := ByteArray new: leftOvers.
 	playerClient socket sendData: buffer.
 	playerClient socket
-		sendData: (ByteArray new: 12)
+		sendData: (ByteArray new: 12).
+		self halt.
