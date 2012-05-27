@@ -9,4 +9,4 @@ startDemo4
 	w := wifi getData.
 	w inspect.
 	playerClient stopThread.
-	playerClient closeSocket
+	playerClient close

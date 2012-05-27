@@ -1,25 +1,25 @@
 as yet unclassified
 readGeom
 	| buffer pose boundingBox |
-	buffer := ByteArray new: 5*8.
+	buffer := ByteArray new: 5*4.
 	playerClient socket receiveDataInto: buffer.
 	pp2dgeom := PlayerPosition2dGeom new.
 	pose := PlayerPose2d new.
 	boundingBox := PlayerBoundingBox2d new.
 	pose px: (buffer 
-			doubleAt: 1
+			floatAt: 1
 			bigEndian: true).
 	pose py: (buffer 
-			doubleAt: 9
+			floatAt: 5
 			bigEndian: true).
 	pose pa: (buffer 
-			doubleAt: 17
+			floatAt: 9
 			bigEndian: true).
 	pp2dgeom pose: pose.
 	boundingBox sl: (buffer 
-			doubleAt: 25
+			floatAt: 13
 			bigEndian: true).
 	boundingBox sw: (buffer 
-			doubleAt: 33
+			floatAt: 17
 			bigEndian: true).
 	pp2dgeom boundingBox2d:boundingBox.

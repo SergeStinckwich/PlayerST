@@ -6,4 +6,6 @@ open
 	address := NetNameResolver addressForName: self host.
 	socket connectTo: address port: self port.
 	socket waitForConnectionFor: 10.
-	socket receiveDataInto: self banner
+	socket receiveDataInto: self banner.
+	self requestDeviceList.
+	self readAll

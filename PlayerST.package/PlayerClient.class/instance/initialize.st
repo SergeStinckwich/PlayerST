@@ -5,6 +5,5 @@ initialize
 	dataMode := self playerDataModePush.
 	readyPDDList := false.
 	deviceList := Set new.
-	self banner: (ByteArray new: self playerMsgHeadSize)
-	
-	
+	self
+		banner: (ByteArray new: self playerMsgHeadSize)

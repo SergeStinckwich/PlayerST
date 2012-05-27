@@ -9,4 +9,4 @@ startDemo3
 	s := sonar getData.
 	Transcript show: 'Ranges count =', s rangesCount asString , ' Ranges : ', s ranges printString; cr.
 	playerClient stopThread.
-	playerClient closeSocket
+	playerClient close

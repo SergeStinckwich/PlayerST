@@ -7,4 +7,4 @@ startDemo6
 	[laser isDataReady] whileFalse.
 	laser getData inspect.
 	playerClient stopThread.
-	playerClient closeSocket
+	playerClient close

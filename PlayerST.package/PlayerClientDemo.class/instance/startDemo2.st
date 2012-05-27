@@ -21,4 +21,4 @@ startDemo2
 		show: 'State : x=' , pp2d pos px asString , ' y =' , pp2d pos py asString , ' a = ' , pp2d pos pa asString , ' stall = ' , pp2d stall asString;
 		cr.
 	playerClient stopThread.
-	playerClient closeSocket
+	playerClient close
