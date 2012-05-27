@@ -1,4 +1,4 @@
-constants
+as yet unclassified
 speed: aSpeedValue withTurnRate: aTurnValue 
 	| pp |
 	pp := PlayerPose2d new.

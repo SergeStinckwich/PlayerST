@@ -1,4 +1,4 @@
-constants
+as yet unclassified
 isGeomReady
 	readyPsgeom
 		ifTrue: [readyPsgeom := false.

@@ -1,2 +1,2 @@
-constants
+as yet unclassified
 handleResponse: aPlayerMsgHdr 
