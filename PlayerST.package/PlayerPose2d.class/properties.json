@@ -1,0 +1,16 @@
+{
+	"category" : "PlayerST-Kernel",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "zz 2/6/2009 11:22",
+	"instvars" : [
+		"px",
+		"py",
+		"pa" ],
+	"name" : "PlayerPose2d",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

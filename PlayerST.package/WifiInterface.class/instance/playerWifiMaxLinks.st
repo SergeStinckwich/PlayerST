@@ -1,0 +1,3 @@
+constants
+playerWifiMaxLinks
+	^ 32

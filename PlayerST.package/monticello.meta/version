@@ -1,1 +1,1 @@
-(name 'PlayerST-zz.1' message 'First empty version' id 'e4a76088-d537-41e4-b011-1ed062c93c82' date '18 March 2009' time '11:13:24 am' author 'zz' ancestors () stepChildren ())
+(name 'PlayerST-zz.2' message 'Initial real version grabbed from WifiBotST' id '6749bff7-e7af-4539-8432-ca56e90c7c3a' date '18 March 2009' time '2:19:43 pm' author 'zz' ancestors ((name 'PlayerST-zz.1' message 'First empty version' id 'e4a76088-d537-41e4-b011-1ed062c93c82' date '18 March 2009' time '11:13:24 am' author 'zz' ancestors () stepChildren ())) stepChildren ())

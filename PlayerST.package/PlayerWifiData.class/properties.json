@@ -1,0 +1,22 @@
+{
+	"category" : "PlayerST-Kernel",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"throughput",
+		"bitrate",
+		"mode",
+		"qualType",
+		"maxqual",
+		"maxlevel",
+		"maxnoise",
+		"ap",
+		"links" ],
+	"name" : "PlayerWifiData",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

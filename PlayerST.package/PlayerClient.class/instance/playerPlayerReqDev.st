@@ -1,0 +1,3 @@
+constants
+playerPlayerReqDev
+	^ 3

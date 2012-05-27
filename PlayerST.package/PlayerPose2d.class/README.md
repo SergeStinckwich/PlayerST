@@ -1,0 +1,1 @@
+A pose in the plane.

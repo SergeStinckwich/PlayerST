@@ -1,0 +1,15 @@
+{
+	"category" : "PlayerST-Kernel",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"psp2ddata",
+		"readyPsp2ddata" ],
+	"name" : "SimulationInterface",
+	"pools" : [
+		 ],
+	"super" : "PlayerDevice",
+	"type" : "normal" }

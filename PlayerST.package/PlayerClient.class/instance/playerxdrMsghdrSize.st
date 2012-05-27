@@ -1,0 +1,3 @@
+constants
+playerxdrMsghdrSize
+	^ 40

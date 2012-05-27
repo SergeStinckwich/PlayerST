@@ -1,0 +1,3 @@
+constants
+playerSonarReqPower
+	^ 2

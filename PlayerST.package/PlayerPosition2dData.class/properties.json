@@ -1,0 +1,16 @@
+{
+	"category" : "PlayerST-Kernel",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"vel",
+		"pos",
+		"stall" ],
+	"name" : "PlayerPosition2dData",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
