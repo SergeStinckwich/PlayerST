@@ -1,6 +1,6 @@
 as yet unclassified
 readLaserData
-	| buffer rangesCount ranges intensityCount |
+	| buffer rangesCount ranges intensityCount currentAngle resolution points |
 	pld := PlayerLaserData new.
 	buffer := ByteArray new: 4*4+4.
 	playerClient socket receiveDataInto: buffer.
@@ -38,6 +38,17 @@ readLaserData
 	playerClient socket receiveDataInto: buffer.
 	pld id: (buffer longAt:1 bigEndian: true).
 	
+	currentAngle := pld minAngle.
+	resolution := pld resolution.
+	ranges := pld ranges.
+		
+	points := Array new: pld rangesCount.
+	1 to: (pld rangesCount) do:[:i|
+	points at: i put:(((ranges at: i)* (currentAngle cos))@
+		((ranges at: i)* (currentAngle sin))).
+		currentAngle := currentAngle+resolution.
+		].
+	pld points: points.
 	^pld
 	
 	

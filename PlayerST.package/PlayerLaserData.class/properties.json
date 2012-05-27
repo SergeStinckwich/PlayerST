@@ -14,7 +14,8 @@
 		"rangesCount",
 		"intensityCount",
 		"intensity",
-		"id" ],
+		"id",
+		"points" ],
 	"name" : "PlayerLaserData",
 	"pools" : [
 		 ],
