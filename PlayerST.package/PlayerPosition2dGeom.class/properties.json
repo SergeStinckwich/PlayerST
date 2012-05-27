@@ -1,0 +1,15 @@
+{
+	"category" : "PlayerST-Kernel",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"pose",
+		"boundingBox" ],
+	"name" : "PlayerPosition2dGeom",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,15 @@
+{
+	"category" : "PlayerST-Kernel",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"width",
+		"lenght" ],
+	"name" : "PlayerBoundingBox",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
