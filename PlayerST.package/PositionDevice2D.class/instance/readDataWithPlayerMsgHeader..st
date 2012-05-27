@@ -1,4 +1,4 @@
-as yet unclassified
+WifiBot-Player
 readDataWithPlayerMsgHeader: aHeader 
 	"Read the position2d data values (state or geom)."
 	aHeader subType = self playerPosition2dDataState

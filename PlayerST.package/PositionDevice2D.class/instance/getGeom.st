@@ -1,3 +1,3 @@
-as yet unclassified
+constants
 getGeom
 	^ pp2dgeom

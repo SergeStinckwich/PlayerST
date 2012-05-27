@@ -1,4 +1,4 @@
-as yet unclassified
+constants
 isDataReady
 	readyPp2ddata
 		ifTrue: [readyPp2ddata := false.

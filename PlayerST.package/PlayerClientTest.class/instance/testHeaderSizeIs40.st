@@ -1,7 +1,7 @@
 testing
 testHeaderSizeIs40
 	self assert: 
-		[ (playerClient 
+		 (playerClient 
 			headerWithType: playerClient playerMsgtypeReq
 			subType: playerClient playerPlayerReqDevList
-			size: 0) size = 40 ]
+			size: 0) size = 40 

@@ -2,6 +2,7 @@
 	"category" : "PlayerST-Interfaces",
 	"classinstvars" : [
 		 ],
+	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "zz 2/6/2009 11:07",
@@ -14,4 +15,5 @@
 	"pools" : [
 		 ],
 	"super" : "AbstractPositionDevice",
+	"traitcomposition" : "{}",
 	"type" : "normal" }

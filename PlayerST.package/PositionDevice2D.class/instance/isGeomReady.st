@@ -1,4 +1,4 @@
-as yet unclassified
+constants
 isGeomReady
 	readyPp2dgeom
 		ifTrue: [readyPp2dgeom := false.

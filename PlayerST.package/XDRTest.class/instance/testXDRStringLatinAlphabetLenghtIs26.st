@@ -1,5 +1,5 @@
 as yet unclassified
 testXDRStringLatinAlphabetLenghtIs26
 	self
-		assert: [('ABCDEFGHIJKLMNOPQRSTUVWXYZ' xdrString unsignedLongAt: 1 bigEndian: true)
-				= 26]
+		assert: ('ABCDEFGHIJKLMNOPQRSTUVWXYZ' xdrString unsignedLongAt: 1 bigEndian: true)
+				= 26

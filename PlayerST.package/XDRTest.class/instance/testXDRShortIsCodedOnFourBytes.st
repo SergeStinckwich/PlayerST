@@ -1,4 +1,4 @@
 as yet unclassified
 testXDRShortIsCodedOnFourBytes
 	self
-		assert: [0 xdrShort size = 4]
+		assert: 0 xdrShort size = 4

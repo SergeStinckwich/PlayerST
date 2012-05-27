@@ -2,6 +2,7 @@
 	"category" : "PlayerST-Kernel",
 	"classinstvars" : [
 		 ],
+	"classtraitcomposition" : "{}",
 	"classvars" : [
 		"InterfaceCodeStrings",
 		"PlayerActarrayCode",
@@ -71,4 +72,5 @@
 	"pools" : [
 		 ],
 	"super" : "Object",
+	"traitcomposition" : "{}",
 	"type" : "normal" }

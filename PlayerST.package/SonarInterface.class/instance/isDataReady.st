@@ -1,4 +1,4 @@
-as yet unclassified
+constants
 isDataReady
 	readyPsdata
 		ifTrue: [readyPsdata := false.

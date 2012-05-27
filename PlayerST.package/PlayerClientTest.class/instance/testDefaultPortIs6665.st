@@ -1,4 +1,4 @@
 testing
 testDefaultPortIs6665
 	self
-		assert: [playerClient defaultPort == 6665]
+		assert: playerClient defaultPort == 6665
