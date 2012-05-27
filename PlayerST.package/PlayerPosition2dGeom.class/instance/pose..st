@@ -1,4 +1,3 @@
 accessing
-pose: aPlayerPose
-
-pose := aPlayerPose
+pose: aPlayerPose 
+	pose := aPlayerPose

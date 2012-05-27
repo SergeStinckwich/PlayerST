@@ -22,4 +22,4 @@ readGeom
 	boundingBox with: (buffer 
 			floatAt: 17
 			bigEndian: true).
-	pp2dgeom boundingBox: boundingBox
+	pp2dgeom size: boundingBox

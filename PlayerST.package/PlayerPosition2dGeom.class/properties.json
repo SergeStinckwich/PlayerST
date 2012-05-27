@@ -7,7 +7,7 @@
 	"commentStamp" : "SergeStinckwich 3/24/2009 14:16",
 	"instvars" : [
 		"pose",
-		"boundingBox" ],
+		"boundingBox2d" ],
 	"name" : "PlayerPosition2dGeom",
 	"pools" : [
 		 ],
