@@ -7,11 +7,12 @@ get2DPose: anIdentifier
 				headerWithType: playerClient playerMsgtypeReq
 				subType: self playerSimulationReqGetPose2d
 				size: size.
+				playerClient socket sendData: header.
 	xdr := (anIdentifier size + 1) xdrInteger , (anIdentifier size + 1) xdrInteger.
-	playerClient socket sendData: header , xdr.
-	playerClient socket sendData: anIdentifier.
+	playerClient socket sendData: xdr.
+	playerClient socket sendData: anIdentifier asByteArray.
 	buffer := ByteArray new: leftOvers.
 	playerClient socket sendData: buffer.
 	playerClient socket
 		sendData: (ByteArray new: 12).
-		self halt.
+	self halt
