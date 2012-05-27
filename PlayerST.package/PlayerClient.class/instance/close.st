@@ -1,7 +1,6 @@
 as yet unclassified
 close
 	| currAddr |
-	self halt.
 	deviceList
 		do: [:each | 
 			currAddr := each deviceAddress.
