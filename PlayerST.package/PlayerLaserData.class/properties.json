@@ -1,0 +1,16 @@
+{
+	"category" : "PlayerST-Interfaces",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"minAngle",
+		"maxAngle",
+		"resolution" ],
+	"name" : "PlayerLaserData",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

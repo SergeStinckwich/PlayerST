@@ -1,0 +1,3 @@
+constants
+playerDataScanpose
+	^ 2
