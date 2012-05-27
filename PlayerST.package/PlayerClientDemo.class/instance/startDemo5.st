@@ -18,7 +18,6 @@ startDemo5
 				ifTrue: [speed := 0.0]
 				ifFalse: [speed := 1.0].
 			position speed: speed withTurnRate: turnRate.
-			self halt.
 		].
 		playerClient stopThread.
 	playerClient close
