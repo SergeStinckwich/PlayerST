@@ -3,6 +3,8 @@
 PlayerST is a client library for the [Player/Stage](http://playerstage.sourceforge.net/) robotic device server. This library allows the use of Smalltalk as a client for Player. 
 PlayerST has been developed by Serge Stinckwich (UMMISCO) and IA department of Ecole des Mines de Douai. This software is available under the open-source MIT licence.
 
+In order to run PlayerST, you need to install Player 2.1.2 and Stage 2.1.1 on your platform. More recent of Player/Stage might be work.
+
 http://www.youtube.com/watch?v=6hhKzEf_jcw
 
 ## How to install PlayerST with SS3
