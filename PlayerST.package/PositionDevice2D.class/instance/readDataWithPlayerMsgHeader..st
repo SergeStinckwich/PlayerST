@@ -31,6 +31,7 @@ readDataWithPlayerMsgHeader: aHeader
 	aHeader subType = self playerPosition2dDataGeom
 		ifTrue: [
 			timeStamp := aHeader timeStamp.
+			Transcript show:'readGeom'.
 			self readGeom.
 			readyPp2dgeom := true.
 			]

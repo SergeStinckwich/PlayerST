@@ -16,7 +16,8 @@ startDemo5
 			(s ranges at: 3)
 					< 0.5
 				ifTrue: [speed := 0.0]
-				ifFalse: [speed := 0.1].
-			position speed: speed withTurnRate: turnRate].
-	playerClient stopThread.
+				ifFalse: [speed := 1.0].
+			position speed: speed withTurnRate: turnRate.
+		].
+		playerClient stopThread.
 	playerClient closeSocket
