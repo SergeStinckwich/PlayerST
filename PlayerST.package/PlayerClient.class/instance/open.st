@@ -1,7 +1,9 @@
 as yet unclassified
 open
+	| address |
 	Socket initializeNetwork.
 	socket := Socket newTCP.
-	socket connectTo: self host asByteArray port: self port.
+	address := NetNameResolver addressForName: self host.
+	socket connectTo: address port: self port.
 	socket waitForConnectionFor: 10.
 	socket receiveDataInto: self banner
