@@ -1,4 +1,4 @@
-WifiBot-Player
+as yet unclassified
 readDataWithPlayerMsgHeader: aHeader 
 	"Read the position2d data values (state or geom)."
 	aHeader subType = self playerPosition2dDataState
@@ -29,4 +29,8 @@ readDataWithPlayerMsgHeader: aHeader
 				 cr.
 			readyPp2ddata := true].
 	aHeader subType = self playerPosition2dDataGeom
-		ifTrue: [self readGeom]
+		ifTrue: [
+			timeStamp := aHeader timeStamp.
+			self readGeom.
+			readyPp2dgeom := true.
+			]

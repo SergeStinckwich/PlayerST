@@ -1,10 +1,10 @@
 {
-	"category" : "PlayerST-Kernel",
+	"category" : "PlayerST-Position2d",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "SergeStinckwich 3/24/2009 14:13",
 	"instvars" : [
 		"vel",
 		"pos",

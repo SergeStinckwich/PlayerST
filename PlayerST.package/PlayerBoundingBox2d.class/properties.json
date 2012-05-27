@@ -4,12 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "SergeStinckwich 3/24/2009 14:44",
+	"commentStamp" : "SergeStinckwich 3/24/2009 14:50",
 	"instvars" : [
-		"px",
-		"py",
-		"pa" ],
-	"name" : "PlayerPose2d",
+		"sw",
+		"sl" ],
+	"name" : "PlayerBoundingBox2d",
 	"pools" : [
 		 ],
 	"super" : "Object",

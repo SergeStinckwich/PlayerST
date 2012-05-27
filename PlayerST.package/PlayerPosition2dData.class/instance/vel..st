@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 vel: aVelocity
  vel := aVelocity

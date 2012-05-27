@@ -4,11 +4,15 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "SergeStinckwich 3/24/2009 14:47",
 	"instvars" : [
-		"width",
-		"lenght" ],
-	"name" : "PlayerBoundingBox",
+		"px",
+		"py",
+		"pz",
+		"proll",
+		"ppitch",
+		"pyaw" ],
+	"name" : "PlayerPose3d",
 	"pools" : [
 		 ],
 	"super" : "Object",

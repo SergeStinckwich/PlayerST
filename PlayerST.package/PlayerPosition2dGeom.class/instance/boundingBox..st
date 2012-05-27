@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 boundingBox: aPlayerBoundingBox
 
 boundingBox := aPlayerBoundingBox 

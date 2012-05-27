@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 py: aNumber 
 	py := aNumber
