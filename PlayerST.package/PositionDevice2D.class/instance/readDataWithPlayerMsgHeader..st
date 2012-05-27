@@ -25,8 +25,8 @@ readDataWithPlayerMsgHeader: aHeader
 			pp2ddata vel: vel.
 			pp2ddata
 				stall: (buffer at: 52).
-			Transcript show: 'TimeStamp = ' , timeStamp asString , ' pos px = ' , pos px asString , ' pos py = ' , pos py asString , ' pos pa = ' , pos pa asString , ' vel px = ' , vel px asString , ' vel py = ' , vel py asString , ' vel pa = ' , vel pa asString , ' buffer =' , buffer printString;
-				 cr.
+	"		Transcript show: 'TimeStamp = ' , timeStamp asString , ' pos px = ' , pos px asString , ' pos py = ' , pos py asString , ' pos pa = ' , pos pa asString , ' vel px = ' , vel px asString , ' vel py = ' , vel py asString , ' vel pa = ' , vel pa asString , ' buffer =' , buffer printString;
+				 cr."
 			readyPp2ddata := true].
 	aHeader subType = self playerPosition2dDataGeom
 		ifTrue: [

@@ -1,6 +1,6 @@
 as yet unclassified
 readLaserData
-	| buffer rangesCount ranges|
+	| buffer rangesCount ranges intensityCount |
 	pld := PlayerLaserData new.
 	buffer := ByteArray new: 4*4+4.
 	playerClient socket receiveDataInto: buffer.
@@ -15,7 +15,7 @@ readLaserData
 	rangesCount := (buffer longAt: 17 bigEndian: true).
 	pld rangesCount: rangesCount.
 	
-	buffer := ByteArray new: (rangesCount * 4).
+	buffer := ByteArray new: (rangesCount * 4)+4.
 	playerClient socket receiveDataInto: buffer.
 	ranges := Array new: rangesCount.
 	1
@@ -24,6 +24,21 @@ readLaserData
 						at: i
 						put: (buffer floatAt: i*4-3 bigEndian: true)].
 	pld ranges: ranges.
+	
+	buffer := ByteArray new: 8.
+	playerClient socket receiveDataInto: buffer.
+	intensityCount := buffer longAt: 1 bigEndian: true.
+	pld intensityCount: intensityCount.
+	buffer := ByteArray new: intensityCount.
+	playerClient socket receiveDataInto: buffer.
+	pld intensity:buffer.
+	
+	(intensityCount \\ 4) ~= 0 ifTrue:[buffer := ByteArray new:4-(intensityCount \\ 4). playerClient socket receiveDataInto:buffer ].
+	buffer := ByteArray new: 8.
+	playerClient socket receiveDataInto: buffer.
+	pld id: (buffer longAt:1 bigEndian: true).
+	
+	^pld
 	
 	
 		

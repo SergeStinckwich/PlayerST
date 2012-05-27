@@ -4,9 +4,9 @@ readInterface: anInterface index: indexNumber
 	| header devAddr access driverNameCount |
 	header := self readHeader.
 	header type = self playerMsgtypeData ifTrue: 
-		[ Transcript
+		[ "Transcript
 			show: '[PlayerClient][Debug]: Data for ' , header deviceAddress interf asString , ':' , header deviceAddress index asString;
-			cr.
+			cr."
 		header deviceAddress interf isZero ifTrue: [ ^ nil ].
 		header deviceAddress interf ~= PlayerPlayerCode ifTrue: [ self readDataDevice: header ] ].
 	header type = self playerMsgtypeRespAck ifTrue: 

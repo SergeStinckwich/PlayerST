@@ -11,7 +11,10 @@
 		"resolution",
 		"maxRange",
 		"ranges",
-		"rangesCount" ],
+		"rangesCount",
+		"intensityCount",
+		"intensity",
+		"id" ],
 	"name" : "PlayerLaserData",
 	"pools" : [
 		 ],

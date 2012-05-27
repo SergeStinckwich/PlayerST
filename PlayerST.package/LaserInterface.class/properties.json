@@ -7,7 +7,6 @@
 	"commentStamp" : "SergeStinckwich 8/13/2009 13:47",
 	"instvars" : [
 		"pldata",
-		"readyPlData",
 		"pld",
 		"readyPldata",
 		"readyPldatascan",

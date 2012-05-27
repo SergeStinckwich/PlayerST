@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 rangesCount: anInteger 
 	rangesCount := anInteger

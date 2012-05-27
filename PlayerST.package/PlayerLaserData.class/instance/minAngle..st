@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 minAngle: aNumber 
 	minAngle := aNumber
