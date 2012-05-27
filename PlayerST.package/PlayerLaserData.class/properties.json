@@ -10,7 +10,8 @@
 		"maxAngle",
 		"resolution",
 		"maxRange",
-		"ranges" ],
+		"ranges",
+		"rangesCount" ],
 	"name" : "PlayerLaserData",
 	"pools" : [
 		 ],

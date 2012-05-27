@@ -1,0 +1,3 @@
+constants
+playerLaserDataScanpose
+	^ 2

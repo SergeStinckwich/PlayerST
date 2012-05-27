@@ -6,6 +6,6 @@ startDemo6
 	laser := playerClient requestInterfaceLaserWithIndex: 0 access: playerClient playerOpenMode.
 	playerClient startThread.
 	[laser isDataReady] whileFalse.
-	laser getData.
+	(laser getData) inspect.
 	playerClient stopThread.
 	playerClient closeSocket

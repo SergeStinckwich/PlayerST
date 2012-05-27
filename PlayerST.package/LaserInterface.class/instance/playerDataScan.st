@@ -1,3 +1,0 @@
-constants
-playerDataScan
-	^ 1
