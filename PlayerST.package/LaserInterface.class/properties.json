@@ -7,11 +7,11 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"pldata",
-		"pld",
 		"readyPldata",
 		"readyPldatascan",
 		"readyPlconfig",
-		"readyPlgeom" ],
+		"readyPlgeom",
+		"pldatascan" ],
 	"name" : "LaserInterface",
 	"pools" : [
 		 ],
