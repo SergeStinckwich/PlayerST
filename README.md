@@ -1,3 +1,10 @@
+## PlayerST
+
+PlayerST is a client library for the [Player/Stage]() robotic device server. This library allows the use of Smalltalk as a client for Player. 
+PlayerST has been developed by Serge Stinckwich (UMMISCO) and IA department of Ecole des Mines de Douai. This software is available under the open-source MIT licence.
+
+http://www.youtube.com/watch?v=6hhKzEf_jcw
+
 ## How to install PlayerST with SS3
 
 * Download the last Pharo 1.4 image
