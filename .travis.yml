@@ -3,3 +3,5 @@ language: erlang
 install:
    - git clone git://github.com/renggli/builder.git
    - git clone git://github.com/SergeStinckwich/PlayerST.git
+   - cd builder
+   - ./build.sh
