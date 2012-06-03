@@ -13,4 +13,4 @@ install:
    - cd ~/builder
 
 script:
-   - ./build.sh -i Pharo-1.4 -s pharo-tests -o Player-ST
+   - ./build.sh -i Pharo-1.4 -o Player-ST
