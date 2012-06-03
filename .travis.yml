@@ -11,4 +11,7 @@ install:
    - mv *.changes ..
    - mv *.image ..
    - cd ~/builder
-   - ./build.sh -i Pharo-1.4 -s omnibrowser -o omnibrowser
+   - ./build.sh -i Pharo-1.4 -s Player-ST pharo-tests
+
+script:
+   - echo "Done"
