@@ -11,7 +11,7 @@ install:
    - mv *.changes ..
    - mv *.image ..
    - cd ~/builder
-   - ./build.sh -i Pharo-1.4 -s Player-ST pharo-tests
+   - ./build.sh -i Pharo-1.4 -o Player-ST -s pharo-tests
 
 script:
    - echo "Done"
