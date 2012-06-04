@@ -3,7 +3,7 @@
     package: 'ConfigurationOfFileTree';
     load.
   ((Smalltalk at: #ConfigurationOfFileTree) project version: '1.0') load.
-repo := '~/builds/SergeStinckwich/PlayerST'.
+"repo := '~/builds/SergeStinckwich/PlayerST'.
 Gofer new
     repository: (MCFileTreeRepository new directory: 
                     (FileDirectory on: repo));
@@ -11,4 +11,4 @@ Gofer new
     load.
 HDTestReport runPackages: #(
              'PlayerST-Tests'
-).
+)."
