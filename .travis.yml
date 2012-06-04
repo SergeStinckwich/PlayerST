@@ -10,7 +10,9 @@ install:
    - mv *.sources ~/builder/sources
    - mv *.changes ..
    - mv *.image ..
+   - cd ~/Player-ST
+   - cp script/PlayerST.st ~/builder/scripts/
    - cd ~/builder
 
 script:
-   - ./build.sh -i Pharo-1.4 -o Player-ST
+   - ./build.sh -i Pharo-1.4 -s PlayerST.st -o Player-ST
