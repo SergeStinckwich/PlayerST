@@ -12,6 +12,9 @@ install:
    - mv *.image ..
    - cd ~/builds/SergeStinckwich/PlayerST
    - cp script/PlayerST.st ~/builder/scripts/
+   - cd ~/
+   - pwd
+   - ls 
    - cd ~/builder
 
 script:
