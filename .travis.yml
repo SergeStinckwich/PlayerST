@@ -14,7 +14,7 @@ install:
    - cp script/PlayerST.st ~/builder/scripts/
    - cd ~/
    - pwd
-   - ls 
+   - ls -la
    - cd ~/builder
 
 script:
