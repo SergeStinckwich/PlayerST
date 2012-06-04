@@ -15,4 +15,4 @@ install:
    - cd ~/builder
 
 script:
-   - ./build.sh -i Pharo-1.4 -s PlayerST.st -o PlayerST
+   - ./build.sh -i Pharo-1.4 -s PlayerST -o PlayerST
