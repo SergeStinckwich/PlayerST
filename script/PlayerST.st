@@ -3,7 +3,7 @@
     package: 'ConfigurationOfFileTree';
     load.
   ((Smalltalk at: #ConfigurationOfFileTree) project version: '1.0') load.
-repo := 'PlayerST'.
+repo := '~/builds/PlayerST'.
 Gofer new
     repository: (MCFileTreeRepository new directory: 
                     (FileDirectory on: repo));

@@ -10,7 +10,7 @@ install:
    - mv *.sources ~/builder/sources
    - mv *.changes ..
    - mv *.image ..
-   - cd ~/Player-ST
+   - cd ~/builds/Player-ST
    - cp script/PlayerST.st ~/builder/scripts/
    - cd ~/builder
 
