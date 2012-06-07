@@ -9,6 +9,6 @@ Gofer new
                     (FileDirectory on: repo));
     package: 'PlayerST';
     load.
-HDTestReport runPackages: #(
+"HDTestReport runPackages: #(
              'PlayerST-Tests'
-).
+)."
