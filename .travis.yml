@@ -13,6 +13,7 @@ install:
    - cd ~/builds/SergeStinckwich/PlayerST
    - cp script/PlayerST.st ~/builder/scripts/
    - cd ~/builder
+   - ls -la
 
 script:
    - ./build.sh -i Pharo-1.4 -s PlayerST -o PlayerST
