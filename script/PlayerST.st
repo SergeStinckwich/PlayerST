@@ -11,4 +11,4 @@ Gofer new
     load.
 "HDTestReport runPackages: #(
              'PlayerST-Tests'
-)."
+)." 
