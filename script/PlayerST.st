@@ -3,10 +3,9 @@
     package: 'ConfigurationOfFileTree';
     load.
   ((Smalltalk at: #ConfigurationOfFileTree) project version: '1.0') load.
-repo := '/home/vagrant/builds/SergeStinckwich/PlayerST'.
 Gofer new
     repository: (MCFileTreeRepository new directory: 
-                    (FileDirectory on: repo));
+                    (FileDirectory on: '/home/vagrant/builds/SergeStinckwich/PlayerST/'));
     package: 'PlayerST';
     load.
 "HDTestReport runPackages: #(
