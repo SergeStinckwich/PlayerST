@@ -23,4 +23,5 @@ install:
 
 script:
    - ./build.sh -i Pharo-1.4 -s buildtools -s PlayerST-Tests -o PlayerST
-
+   - cd ~/builder
+   - ls -laR
