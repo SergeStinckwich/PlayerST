@@ -15,12 +15,12 @@ install:
    - mv *.changes ..
    - mv *.image ..
    - cd ~/builds/SergeStinckwich/PlayerST
-   - cp script/PlayerST.st ~/builder/scripts/
+   - cp script/PlayerST-Tests.st ~/builder/scripts/
    - ls -la script/ 
    - cd ~/builder
    - ls -la
    - ls -la builds/
 
 script:
-   - ./build.sh -i Pharo-1.4 -s PlayerST -o PlayerST
+   - ./build.sh -i Pharo-1.4 -s buildtools -s PlayerST-Tests -o PlayerST
 
