@@ -1,11 +1,7 @@
 language: erlang
 
 install:
-   - pwd
-   - ls -la
    - cd ~/
-   - pwd
-   - ls -la
    - git clone git://github.com/renggli/builder.git
    - cd ~/builder/images
    - wget https://ci.lille.inria.fr/pharo/view/Pharo%201.4/job/Pharo%201.4/lastStableBuild/artifact/Pharo-1.4.zip
@@ -16,12 +12,10 @@ install:
    - mv *.image ..
    - cd ~/builds/SergeStinckwich/PlayerST
    - cp script/PlayerST-Tests.st ~/builder/scripts/
-   - ls -la script/ 
    - cd ~/builder
-   - ls -la
-   - ls -la builds/
+ 
 
 script:
    - ./build.sh -i Pharo-1.4 -s buildtools -s PlayerST-Tests -o PlayerST
-   - cd ~/builder
-   - ls -laR
+   - cd ~/builder/builds/PlayerST/
+   - cat PlayerST-Tests-Test.xml
