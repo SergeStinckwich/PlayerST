@@ -8,6 +8,6 @@ Gofer new
                     (FileDirectory on: '/home/vagrant/builds/SergeStinckwich/PlayerST/'));
     package: 'PlayerST';
     load.
-"HDTestReport runPackages: #(
+HDTestReport runPackages: #(
              'PlayerST-Tests'
-)." 
+).
