@@ -1,0 +1,16 @@
+{
+	"category" : "BaselineOfPlayerST",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfPlayerST",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"traitcomposition" : "{}",
+	"type" : "normal" }
