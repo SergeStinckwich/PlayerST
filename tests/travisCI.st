@@ -10,6 +10,6 @@ Metacello new
 MetacelloPlatform current authorName: 'testMonkey'. "These tests save code ... need an Author"
 
 TravisCIHarness
-        value: #('BaseLineOfPlayerST')
+        value: #('BaselineOfPlayerST')
         value: 'TravisCISuccess.txt'
         value: 'TravisCIFailure.txt'.
