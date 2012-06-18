@@ -1,21 +1,27 @@
 language: erlang
 
+env:
+   - ST=PharoCore-1.3
+
 install:
-   - cd ~/
-   - git clone git://github.com/renggli/builder.git
-   - cd ~/builder/images
-   - wget https://ci.lille.inria.fr/pharo/view/Pharo%201.4/job/Pharo%201.4/lastStableBuild/artifact/Pharo-1.4.zip
-   - unzip Pharo-1.4.zip
-   - cd Pharo-1.4
-   - mv *.sources ~/builder/sources
-   - mv *.changes ..
-   - mv *.image ..
-   - cd ~/builds/SergeStinckwich/PlayerST
-   - cp script/PlayerST-Tests.st ~/builder/scripts/
-   - cd ~/builder
- 
+   - export PROJECT_HOME="$(pwd)"
+   - cd $HOME
+   - wget -O builderCI.zip https://github.com/dalehenrich/builderCI/zipball/master
+   - unzip -q builderCI.zip
+   - cd dalehenrich-builderCI*
+   - source build_env_vars
+   - if [[ "$ST" == "Squeak4.3" ]]; then ./build_clone.sh -g "-b squeak4.3 git://github.com/dalehenrich/filetree.git"; fi
+   - if [[ "$ST" == "PharoCore-1.3" ]]; then ./build_clone.sh -g "-b pharo1.3 git://github.com/dalehenrich/filetree.git"; fi
+   - ./build_clone.sh -g "git://github.com/SergeStinckwich/PlayerST.git"
+   - ln -s $PROJECT_HOME $GIT_PATH
+   - ./build_image.sh
 
 script:
-   - ./build.sh -i Pharo-1.4 -s buildtools -s PlayerST-Tests -o PlayerST
-   - cd ~/builder/builds/PlayerST/
-   - cat PlayerST-Tests-Test.xml
+
+   - ./build.sh -i $ST -m -f "$PROJECT_HOME/tests/travisCI.st" -o travisCI
+   - cd "${BUILD_PATH}/travisCI/"
+   - if ( test -e PharoDebug.log ); then cat PharoDebug.log; fi
+   - if ( test -e PharoDebug.log ); then die; fi
+   - if ( test -e TravisCISuccess.txt ); then cat TravisCISuccess.txt; fi
+   - if ( test -e TravisCIFailure.txt ); then cat TravisCIFailure.txt; fi
+   - if ( test -e TravisCIFailure.txt ); then die; fi
