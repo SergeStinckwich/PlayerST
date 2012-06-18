@@ -16,7 +16,7 @@ install:
    - ./build_image.sh
 
 script:
-
+   - echo $PROJECT_HOME             
    - ./build.sh -i $ST -m -f "$PROJECT_HOME/tests/travisCI.st" -o travisCI
    - cd "${BUILD_PATH}/travisCI/"
    - if ( test -e PharoDebug.log ); then cat PharoDebug.log; fi
