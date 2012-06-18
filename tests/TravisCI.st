@@ -1,6 +1,6 @@
 | gitPath |
 gitPath := (FileDirectory default directoryNamed: 'git_cache') fullName.
-
+ 
 Metacello new
           baseline: 'PlayerST';
   repository: 'filetree://', gitPath, '/PlayerST';
