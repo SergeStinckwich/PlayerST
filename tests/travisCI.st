@@ -1,6 +1,8 @@
 | gitPath |
 gitPath := (FileDirectory default directoryNamed: 'git_cache') fullName.
- 
+
+MetacelloCommonMCSpecLoader retryPackageResolution: false.
+
 Metacello new
           baseline: 'BaseLineOfPlayerST';
   repository: 'filetree://', gitPath, '/PlayerST';
