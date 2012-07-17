@@ -1,4 +1,16 @@
-## PlayerST
+# PlayerST
+
+
+## Travis CI Status
+
+**pharo1.3 branch** : [![Build Status](https://secure.travis-ci.org/SergeStinckwich/PlayerST.png?branch=pharo1.3)](http://travis-ci.org/SergeStinckwich/PlayerST) 
+
+**pharo1.4 branch** : [![Build Status](https://secure.travis-ci.org/SergeStinckwich/PlayerST.png?branch=pharo1.4)](http://travis-ci.org/SergeStinckwich/PlayerST)
+
+**pharo2.0 branch** : [![Build Status](https://secure.travis-ci.org/SergeStinckwich/PlayerST.png?branch=pharo2.0)](http://travis-ci.org/SergeStinckwich/PlayerST)
+
+**squeak4.3 branch** : [![Build Status](https://secure.travis-ci.org/SergeStinckwich/PlayerST.png?branch=squeak4.3)](http://travis-ci.org/SergeStinckwich/PlayerST)
+
 
 [![Build Status](https://secure.travis-ci.org/SergeStinckwich/PlayerST.png)](http://travis-ci.org/SergeStinckwich/PlayerST)
 
