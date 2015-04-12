@@ -14,12 +14,4 @@ install:
    - ln -s $PROJECT_HOME $GIT_PATH
    - ./build_image.sh
 
-script:
-   - echo $PROJECT_HOME             
-   - ./build.sh -i $ST -s latAmMirror.st -m -f "$PROJECT_HOME/tests/travisCI.st" -o travisCI
-   - cd "${BUILD_PATH}/travisCI/"
-   - if ( test -e PharoDebug.log ); then cat PharoDebug.log; fi
-   - if ( test -e PharoDebug.log ); then die; fi
-   - if ( test -e TravisCISuccess.txt ); then cat TravisCISuccess.txt; fi
-   - if ( test -e TravisCIFailure.txt ); then cat TravisCIFailure.txt; fi
-   - if ( test -e TravisCIFailure.txt ); then die; fi
+script: $BUILDER_CI_HOME/testTravisCI.sh -verbose
