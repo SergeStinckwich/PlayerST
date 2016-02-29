@@ -10,60 +10,11 @@ In order to run PlayerST, you need to install Player 2.1.2 and Stage 2.1.1 on yo
 
 http://www.youtube.com/watch?v=6hhKzEf_jcw
 
-## How to install PlayerST with Metacello
+## How to install PlayerST
 
 ```Smalltalk
 Metacello new
-  baseline: 'PlayerST';
-  repository: 'github://SergeStinckwich/PlayerST:baseline';
-  load.
-```
-
-*See the [Metacello installation instructions](https://github.com/dalehenrich/metacello-work/blob/master/README.md) 
-for details on installing Metacello.*
-
-## How to install PlayerST with SS3
-
-* Download the last Pharo 1.4 image
-
-* Use SS3 repository:
-
-```Smalltalk
-  Gofer new
-    repository: 'http://ss3.gemstone.com/ss/PlayerST';
-    package: 'PlayerST';
+    baseline: 'PlayerST';
+    repository: 'github://SergeStinckwich/PlayerST';
     load
-```
-
-## How to install PlayerST with github
-
-* Download the last Pharo 1.4 image
-
-* Bootstrap FileTree:
-
-```Smalltalk
-  Gofer new
-    url: 'http://ss3.gemstone.com/ss/FileTree';
-    package: 'ConfigurationOfFileTree';
-    load.
-  ((Smalltalk at: #ConfigurationOfFileTree) project version: '1.0') load.
-```
-
-* Clone this repository:
-
-```shell
-  mkdir PlayerST
-  cd PlayerST
-  git clone https://github.com/SergeStinckwich/PlayerST.git
-```
-
-* Attach to filetree repository and load latest packages (use correct path to your filetree download/clone):
-
-```Smalltalk
-repo := 'Add you repo path here'.
-Gofer new
-    repository: (MCFileTreeRepository new directory: 
-                    (FileDirectory on: repo));
-    package: 'PlayerST';
-    load.
 ```
