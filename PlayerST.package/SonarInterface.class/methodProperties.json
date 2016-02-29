@@ -1,0 +1,20 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"getData" : "SergeStinckwich 5/27/2012 22:03:15",
+		"getGeom" : "SergeStinckwich 5/27/2012 22:03:15",
+		"handleResponse:" : "SergeStinckwich 5/27/2012 22:03:15",
+		"initialize" : "SergeStinckwich 5/27/2012 22:03:15",
+		"isDataReady" : "SergeStinckwich 5/27/2012 22:03:15",
+		"isGeomReady" : "SergeStinckwich 5/27/2012 22:03:15",
+		"playerSonarDataGeom" : "SergeStinckwich 5/27/2012 22:03:15",
+		"playerSonarDataRanges" : "SergeStinckwich 5/27/2012 22:03:15",
+		"playerSonarMaxSamples" : "SergeStinckwich 5/27/2012 22:03:15",
+		"playerSonarReqGetGeom" : "SergeStinckwich 5/27/2012 22:03:15",
+		"playerSonarReqPower" : "SergeStinckwich 5/27/2012 22:03:15",
+		"powerSonarOff" : "SergeStinckwich 5/27/2012 22:03:15",
+		"powerSonarOn" : "SergeStinckwich 5/27/2012 22:03:15",
+		"queryGeometry" : "SergeStinckwich 5/27/2012 22:03:15",
+		"readDataWithPlayerMsgHeader:" : "SergeStinckwich 5/27/2012 22:03:15",
+		"setPowerSonar:" : "SergeStinckwich 5/27/2012 22:03:15" } }

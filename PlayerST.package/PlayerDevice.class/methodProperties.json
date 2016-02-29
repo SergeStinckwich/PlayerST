@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"withPlayerClient:" : "SergeStinckwich 5/27/2012 22:03:15" },
+	"instance" : {
+		"deviceAccess:" : "SergeStinckwich 5/27/2012 22:03:15",
+		"deviceAddress" : "SergeStinckwich 5/27/2012 22:03:15",
+		"deviceAddress:" : "SergeStinckwich 5/27/2012 22:03:15",
+		"deviceDriverName" : "SergeStinckwich 5/27/2012 22:03:15",
+		"deviceDriverName:" : "SergeStinckwich 5/27/2012 22:03:15",
+		"handleResponse:" : "SergeStinckwich 5/27/2012 22:03:15",
+		"headerWithType:subType:size:" : "SergeStinckwich 5/27/2012 22:03:15",
+		"playerClient:" : "SergeStinckwich 5/27/2012 22:03:15",
+		"readDataWithPlayerMsgHeader:" : "SergeStinckwich 5/27/2012 22:03:15" } }

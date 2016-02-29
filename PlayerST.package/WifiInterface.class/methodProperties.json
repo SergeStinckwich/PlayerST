@@ -1,0 +1,17 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"getData" : "SergeStinckwich 5/27/2012 22:03:15",
+		"handleResponse:" : "SergeStinckwich 5/27/2012 22:03:15",
+		"initialize" : "SergeStinckwich 5/27/2012 22:03:15",
+		"isDataReady" : "SergeStinckwich 5/27/2012 22:03:15",
+		"playerWifiDataState" : "SergeStinckwich 5/27/2012 22:03:15",
+		"playerWifiIwspyAdd" : "SergeStinckwich 5/27/2012 22:03:15",
+		"playerWifiMac" : "SergeStinckwich 5/27/2012 22:03:15",
+		"playerWifiMaxLinks" : "SergeStinckwich 5/27/2012 22:03:15",
+		"playerWifiQualDbm" : "SergeStinckwich 5/27/2012 22:03:15",
+		"playerWifiQualRel" : "SergeStinckwich 5/27/2012 22:03:15",
+		"queryWifiIwspyAddrAdd" : "SergeStinckwich 5/27/2012 22:03:15",
+		"queryWifiMac" : "SergeStinckwich 5/27/2012 22:03:15",
+		"readDataWithPlayerMsgHeader:" : "SergeStinckwich 5/27/2012 22:03:15" } }

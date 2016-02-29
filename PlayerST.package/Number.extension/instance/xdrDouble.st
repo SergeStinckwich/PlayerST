@@ -1,5 +1,5 @@
 *PlayerST
 xdrDouble
-	^ (ReferenceStream streamedRepresentationOf: self)
+	^ (MCDataStream streamedRepresentationOf: self)
 		copyFrom: 2
 		to: 9

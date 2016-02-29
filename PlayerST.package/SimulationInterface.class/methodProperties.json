@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"get2DPose:" : "SergeStinckwich 5/27/2012 22:03:15",
+		"getData" : "SergeStinckwich 5/27/2012 22:03:15",
+		"handleResponse:" : "SergeStinckwich 5/27/2012 22:03:15",
+		"initialize" : "SergeStinckwich 5/27/2012 22:03:15",
+		"isDataReady" : "SergeStinckwich 5/27/2012 22:03:15",
+		"playerSimulationReqGetPose2d" : "SergeStinckwich 5/27/2012 22:03:15",
+		"playerSimulationReqSetPose2d" : "SergeStinckwich 5/27/2012 22:03:15",
+		"readDataWithPlayerMsgHeader:" : "SergeStinckwich 5/27/2012 22:03:15",
+		"set2DPose:withPose:" : "SergeStinckwich 5/27/2012 22:03:15" } }

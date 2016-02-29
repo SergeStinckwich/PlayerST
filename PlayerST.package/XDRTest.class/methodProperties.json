@@ -1,0 +1,20 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testConvertADoubleAsXDRDoubleAndBack" : "SergeStinckwich 5/27/2012 22:03:15",
+		"testConvertAFloatAsXDRFloatAndBack" : "SergeStinckwich 5/27/2012 22:03:15",
+		"testLessSignifiantByteOfMaxValueIs127" : "SergeStinckwich 5/27/2012 22:03:15",
+		"testLessSignifiantByteOfMinValueIs128" : "SergeStinckwich 5/27/2012 22:03:15",
+		"testMostSignifiantByteOfMaxValueIs255" : "SergeStinckwich 5/27/2012 22:03:15",
+		"testMostSignifiantByteOfMaxValueIsZero" : "SergeStinckwich 5/27/2012 22:03:15",
+		"testXDRByteOneIsCodedAsOneOnTheLastByte" : "SergeStinckwich 5/27/2012 22:03:15",
+		"testXDRDoubleIsCodedOnEightBytes" : "SergeStinckwich 5/27/2012 22:03:15",
+		"testXDRFalseIsCodedOnFourBytes" : "SergeStinckwich 5/27/2012 22:03:15",
+		"testXDRFalseLastByteIsZero" : "SergeStinckwich 5/27/2012 22:03:15",
+		"testXDRIntegerIsCodedOnFourBytes" : "SergeStinckwich 5/27/2012 22:03:15",
+		"testXDRShortIsCodedOnFourBytes" : "SergeStinckwich 5/27/2012 22:03:15",
+		"testXDRStringLatinAlphabetLenghtIs26" : "SergeStinckwich 5/27/2012 22:03:15",
+		"testXDRStringSizeIsaMultipleOfFour" : "SergeStinckwich 5/27/2012 22:03:15",
+		"testXDRTrueIsCodedOnFourBytes" : "SergeStinckwich 5/27/2012 22:03:15",
+		"testXDRTrueLastByteIsOne" : "SergeStinckwich 5/27/2012 22:03:15" } }

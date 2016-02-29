@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "SergeStinckwich 5/27/2012 22:03:15",
+		"testDecodingByteArrayAsAPlayerDevAddr" : "SergeStinckwich 5/27/2012 22:03:15",
+		"testDefaultHostIsLocalhost" : "SergeStinckwich 5/27/2012 22:03:15",
+		"testDefaultPortIs6665" : "SergeStinckwich 5/27/2012 22:03:15",
+		"testHeaderSizeIs40" : "SergeStinckwich 5/27/2012 22:03:15" } }
