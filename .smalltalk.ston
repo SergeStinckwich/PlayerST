@@ -5,5 +5,10 @@ SmalltalkCISpec {
       #directory : '',
       #platforms : [#pharo ]
     }
-  ]
+  ],
+  #testing : {
+    #coverage : {
+      #categories : [ 'PlayerST-*' ]
+    }
+  }
 }
