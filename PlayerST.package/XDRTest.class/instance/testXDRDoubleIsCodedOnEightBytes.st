@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testXDRDoubleIsCodedOnEightBytes
 	self
 		assert: 0.0 xdrDouble size = 8

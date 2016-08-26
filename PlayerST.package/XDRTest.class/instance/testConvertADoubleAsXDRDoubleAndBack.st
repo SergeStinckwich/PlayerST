@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testConvertADoubleAsXDRDoubleAndBack
 	self
 		assert: (1.0 xdrDouble doubleAt: 1 bigEndian: true)

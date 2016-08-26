@@ -2,12 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"get2DPose:" : "SergeStinckwich 5/27/2012 22:03:15",
-		"getData" : "SergeStinckwich 5/27/2012 22:03:15",
-		"handleResponse:" : "SergeStinckwich 5/27/2012 22:03:15",
-		"initialize" : "SergeStinckwich 5/27/2012 22:03:15",
-		"isDataReady" : "SergeStinckwich 5/27/2012 22:03:15",
-		"playerSimulationReqGetPose2d" : "SergeStinckwich 5/27/2012 22:03:15",
-		"playerSimulationReqSetPose2d" : "SergeStinckwich 5/27/2012 22:03:15",
-		"readDataWithPlayerMsgHeader:" : "SergeStinckwich 5/27/2012 22:03:15",
-		"set2DPose:withPose:" : "SergeStinckwich 5/27/2012 22:03:15" } }
+		"get2DPose:" : "SergeStinckwich 2/29/2016 20:52:26",
+		"getData" : "SergeStinckwich 2/29/2016 20:52:26",
+		"handleResponse:" : "SergeStinckwich 2/29/2016 20:52:26",
+		"initialize" : "SergeStinckwich 2/29/2016 20:52:26",
+		"isDataReady" : "SergeStinckwich 2/29/2016 20:52:26",
+		"playerSimulationReqGetPose2d" : "SergeStinckwich 2/29/2016 20:52:26",
+		"playerSimulationReqSetPose2d" : "SergeStinckwich 2/29/2016 20:52:26",
+		"readDataWithPlayerMsgHeader:" : "SergeStinckwich 2/29/2016 20:52:26",
+		"set2DPose:withPose:" : "SergeStinckwich 2/29/2016 20:52:26" } }

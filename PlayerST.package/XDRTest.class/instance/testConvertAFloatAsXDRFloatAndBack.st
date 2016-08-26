@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testConvertAFloatAsXDRFloatAndBack
 	self
 		assert: (1.0 xdrFloat floatAt: 1 bigEndian: true)

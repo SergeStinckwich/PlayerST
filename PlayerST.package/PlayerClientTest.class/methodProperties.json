@@ -2,8 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "SergeStinckwich 5/27/2012 22:03:15",
-		"testDecodingByteArrayAsAPlayerDevAddr" : "SergeStinckwich 5/27/2012 22:03:15",
-		"testDefaultHostIsLocalhost" : "SergeStinckwich 5/27/2012 22:03:15",
-		"testDefaultPortIs6665" : "SergeStinckwich 5/27/2012 22:03:15",
-		"testHeaderSizeIs40" : "SergeStinckwich 5/27/2012 22:03:15" } }
+		"setUp" : "SergeStinckwich 2/29/2016 20:52:26",
+		"testDecodingByteArrayAsAPlayerDevAddr" : "SergeStinckwich 2/29/2016 20:52:26",
+		"testDefaultHostIsLocalhost" : "SergeStinckwich 2/29/2016 20:52:26",
+		"testDefaultPortIs6665" : "SergeStinckwich 2/29/2016 20:52:26",
+		"testHeaderSizeIs40" : "SergeStinckwich 2/29/2016 20:52:26" } }

@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testXDRByteOneIsCodedAsOneOnTheLastByte
 	self
 		assert: (1 xdrByte at: 4)
