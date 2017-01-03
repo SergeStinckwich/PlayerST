@@ -1,2 +1,0 @@
-(name 'PlayerST-SergeStinckwich.41' message 'Categorize XDRTest methods' id 'b25aed6d-87ca-49da-b944-7f4e9381e57d' date '26 August 2016' time '6:08:58.82078 pm' author 'SergeStinckwich' ancestors ((name 'PlayerST-SergeStinckwich.40' message 'Replace ReferenceStream with MCDataStream. Should works for Pharo 4.0
-' id '8db390fa-8196-5462-b632-32018954d6f4' date '29 February 2016' time '8:52:26 pm' author 'SergeStinckwich' ancestors () stepChildren ())) stepChildren ())
