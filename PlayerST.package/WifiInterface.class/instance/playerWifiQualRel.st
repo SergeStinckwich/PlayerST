@@ -1,3 +1,0 @@
-constants
-playerWifiQualRel
-	^ 2

@@ -1,3 +1,0 @@
-constants
-playerSonarReqGetGeom
-	^ 1

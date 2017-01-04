@@ -1,3 +1,0 @@
-constants
-playerWifiDataState
-	^ 1

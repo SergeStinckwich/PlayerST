@@ -1,3 +1,0 @@
-constants
-playerSonarDataRanges
-	^ 1

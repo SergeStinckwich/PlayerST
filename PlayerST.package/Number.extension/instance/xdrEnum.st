@@ -1,3 +1,0 @@
-*PlayerST
-xdrEnum 
-	^ self xdrInteger
