@@ -1,3 +1,0 @@
-constants
-playerWifiIwspyAdd
-	^ 2

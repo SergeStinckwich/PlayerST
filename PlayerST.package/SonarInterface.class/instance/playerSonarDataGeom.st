@@ -1,3 +1,0 @@
-constants
-playerSonarDataGeom
-	^ 2

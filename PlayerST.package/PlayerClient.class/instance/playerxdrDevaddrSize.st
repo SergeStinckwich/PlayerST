@@ -1,3 +1,0 @@
-constants
-playerxdrDevaddrSize
-	^ 16

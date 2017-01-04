@@ -1,1 +1,0 @@
-The position2d interface is used to control a mobile robot bases in 2D.

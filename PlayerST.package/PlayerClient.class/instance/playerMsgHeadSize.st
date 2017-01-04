@@ -1,3 +1,0 @@
-constants
-playerMsgHeadSize
-	^ 32

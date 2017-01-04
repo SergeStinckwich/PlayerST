@@ -1,2 +1,0 @@
-La liste des constante se trouve dans : http://java-player.svn.sourceforge.net/viewvc/java-player/javaclient2/structures/PlayerConstants.java?revision=76&view=markup
-ou encore dans le code C de Player.

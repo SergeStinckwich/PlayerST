@@ -1,3 +1,0 @@
-constants
-playerWifiQualDbm
-	^ 1
