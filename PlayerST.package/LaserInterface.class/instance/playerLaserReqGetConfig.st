@@ -1,0 +1,3 @@
+constants
+playerLaserReqGetConfig
+	^ 3

@@ -1,0 +1,3 @@
+constants
+playerWifiMac
+	^ 1

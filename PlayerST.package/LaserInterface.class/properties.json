@@ -1,0 +1,19 @@
+{
+	"category" : "PlayerST-Interfaces",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"pldata",
+		"readyPldata",
+		"readyPldatascan",
+		"readyPlconfig",
+		"readyPlgeom",
+		"pldatascan" ],
+	"name" : "LaserInterface",
+	"pools" : [
+		 ],
+	"super" : "PlayerDevice",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "PlayerST-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "XDRTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

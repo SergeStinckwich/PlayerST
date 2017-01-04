@@ -1,0 +1,14 @@
+{
+	"category" : "PlayerST-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"playerClient" ],
+	"name" : "PlayerClientTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

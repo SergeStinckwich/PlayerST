@@ -1,0 +1,3 @@
+*PlayerST
+xdrLong
+	^ self xdrInteger

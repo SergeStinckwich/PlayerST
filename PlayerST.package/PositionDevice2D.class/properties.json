@@ -1,0 +1,17 @@
+{
+	"category" : "PlayerST-Interfaces",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "zz 2/6/2009 11:07",
+	"instvars" : [
+		"pp2ddata",
+		"pp2dgeom",
+		"readyPp2ddata",
+		"readyPp2dgeom" ],
+	"name" : "PositionDevice2D",
+	"pools" : [
+		 ],
+	"super" : "AbstractPositionDevice",
+	"type" : "normal" }

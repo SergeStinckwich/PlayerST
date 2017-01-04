@@ -1,0 +1,15 @@
+{
+	"category" : "PlayerST-Interfaces",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"scan",
+		"pose" ],
+	"name" : "PlayerLaserDataScanPose",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

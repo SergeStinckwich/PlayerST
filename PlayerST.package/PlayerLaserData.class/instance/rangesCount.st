@@ -1,0 +1,3 @@
+accessing
+rangesCount
+	^ rangesCount

@@ -1,0 +1,3 @@
+constants
+playerWifiIwspyAdd
+	^ 2

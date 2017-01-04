@@ -1,0 +1,3 @@
+*PlayerST
+xdrUnsignedInteger
+	^ self xdrInteger 

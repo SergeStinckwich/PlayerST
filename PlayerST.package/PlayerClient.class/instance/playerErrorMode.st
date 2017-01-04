@@ -1,0 +1,3 @@
+constants
+playerErrorMode
+	^ 3
