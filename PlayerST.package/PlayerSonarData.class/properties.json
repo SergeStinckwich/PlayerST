@@ -1,0 +1,15 @@
+{
+	"category" : "PlayerST-Interfaces",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"rangesCount",
+		"ranges" ],
+	"name" : "PlayerSonarData",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

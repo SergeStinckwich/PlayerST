@@ -1,0 +1,3 @@
+constants
+playerSonarMaxSamples
+	^ 64

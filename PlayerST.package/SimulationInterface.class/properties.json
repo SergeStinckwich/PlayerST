@@ -1,0 +1,17 @@
+{
+	"category" : "PlayerST-Interfaces",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"psp2ddata",
+		"readyPsp2ddata",
+		"psp2dreq",
+		"readyPsp2dreq" ],
+	"name" : "SimulationInterface",
+	"pools" : [
+		 ],
+	"super" : "PlayerDevice",
+	"type" : "normal" }

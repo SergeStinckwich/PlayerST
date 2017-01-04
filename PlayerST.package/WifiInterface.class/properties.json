@@ -1,0 +1,15 @@
+{
+	"category" : "PlayerST-Interfaces",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"pwdata",
+		"readyPwdata" ],
+	"name" : "WifiInterface",
+	"pools" : [
+		 ],
+	"super" : "PlayerDevice",
+	"type" : "normal" }

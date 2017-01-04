@@ -1,0 +1,14 @@
+{
+	"category" : "PlayerST-Interfaces",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "AbstractPositionDevice",
+	"pools" : [
+		 ],
+	"super" : "PlayerDevice",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "PlayerST-Kernel",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "zz 2/5/2009 15:15",
+	"instvars" : [
+		"playerClient" ],
+	"name" : "PlayerClientDemo",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

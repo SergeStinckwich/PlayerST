@@ -1,0 +1,15 @@
+{
+	"category" : "PlayerST-Interfaces",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "SergeStinckwich 3/24/2009 14:50",
+	"instvars" : [
+		"sw",
+		"sl" ],
+	"name" : "PlayerBoundingBox2d",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

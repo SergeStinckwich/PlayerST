@@ -1,0 +1,3 @@
+constants
+playerCloseMode
+	^ 2

@@ -1,0 +1,19 @@
+{
+	"category" : "PlayerST-Kernel",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"deviceAddress",
+		"type",
+		"timeStamp",
+		"seq",
+		"size",
+		"subType" ],
+	"name" : "PlayerMsgHdr",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

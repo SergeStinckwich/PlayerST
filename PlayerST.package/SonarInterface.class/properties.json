@@ -1,0 +1,17 @@
+{
+	"category" : "PlayerST-Interfaces",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "SergeStinckwich 3/2/2009 16:19",
+	"instvars" : [
+		"readyPsdata",
+		"psdata",
+		"psgeom",
+		"readyPsgeom" ],
+	"name" : "SonarInterface",
+	"pools" : [
+		 ],
+	"super" : "PlayerDevice",
+	"type" : "normal" }

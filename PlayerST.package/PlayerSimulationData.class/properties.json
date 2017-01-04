@@ -1,0 +1,14 @@
+{
+	"category" : "PlayerST-Interfaces",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PlayerSimulationData",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

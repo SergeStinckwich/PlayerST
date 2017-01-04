@@ -1,0 +1,3 @@
+constants
+playerLaserReqGetGeom
+	^ 1

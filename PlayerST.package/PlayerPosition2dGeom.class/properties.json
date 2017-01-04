@@ -1,0 +1,15 @@
+{
+	"category" : "PlayerST-Interfaces",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "SergeStinckwich 3/24/2009 14:16",
+	"instvars" : [
+		"pose",
+		"boundingBox2d" ],
+	"name" : "PlayerPosition2dGeom",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
